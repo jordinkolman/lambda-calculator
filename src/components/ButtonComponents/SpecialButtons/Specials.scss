@@ -1,0 +1,20 @@
+.specials {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+    .special-button {
+      justify-self: center;
+      align-self: center;
+      background-color: #2061b0;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      border: 1px solid black;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  }
+  
